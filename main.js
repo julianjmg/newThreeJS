@@ -1,6 +1,7 @@
 import * as THREE from 'https://cdn.skypack.dev/three@0.128.0/build/three.module.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
-import './style.css'
+//import './style.css'
+//making an insignificant change
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
