@@ -96,20 +96,6 @@ button:focus-visible {
   }
 }
 
-section.threeD {
-  /* display:grid; */
-  width: 50vw;
-  height: fit-content;
-  /* justify-content:space-around; */
-  grid-template-columns: repeat(12, 1fr);
-  align-self: center;
-  display: flex;
-justify-content: center;
-top: 0;
-position: relative;
-text-align:center;
-}
-
 canvas{
           position:fixed;
           top: 0;
